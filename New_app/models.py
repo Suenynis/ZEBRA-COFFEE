@@ -45,3 +45,9 @@ class Сashier(models.Model):
     def __str__(self):
         return self.name
 # Create your models here.
+class Review(models.Model):
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    product = models.ForeignKey(Product, on_delete=models.CASCADE)
+    text = models.TextField(max_length=200)
+    def __str__(self):
+        return self.name
