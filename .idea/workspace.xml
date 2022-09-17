@@ -2,22 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4e426f-114b-43f8-9a3a-cd13eedfb726" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/New_app/Templates/New_app/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/New_app/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ZEBRACOFFEE/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZEBRACOFFEE/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/New_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ZEBRACOFFEE/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/ZEBRACOFFEE/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/Templates/New_app/registration.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DjangoConsoleOptions" custom-start-script="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)">
+    <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Python Script" />
         <option value="HTML File" />
+        <option value="Python Script" />
       </list>
     </option>
   </component>
@@ -82,7 +88,7 @@
       <updated>1663399641212</updated>
       <workItem from="1663399677387" duration="3739000" />
       <workItem from="1663403692850" duration="5000" />
-      <workItem from="1663403749856" duration="313000" />
+      <workItem from="1663403749856" duration="7532000" />
     </task>
     <servers />
   </component>
