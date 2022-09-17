@@ -19,6 +19,20 @@ class Userform(View):
     def post(self, request):
         user_form = RegisterForm(request.POST)
         if user_form.is_valid():
-            User.objects.create_user(**user_form.cleaned_data)
+            User.objects.create(**user_form.cleaned_data)
             return HttpResponseRedirect('/')
-        return render(request, 'New_app/registration.html', {'user_form': user_form})
+        return render(request, 'New_app/registration.html', context={'user_form': user_form})
+
+class UserEditFormView(View):
+    def get(self, request, profile_id):
+        user = User.objects.get(id=profile_id)
+        user_form = RegisterForm(instance=user)
+        return render(request, 'New_app/edit.html',context={'user_form': user_form, 'profile_id': profile_id})
+
+    def post(self, request, profile_id):
+        user = User.objects.get(id=profile_id)
+        user_form = RegisterForm(request.POST, instance=user)
+
+        if user_form.is_valid():
+            user_form.save()
+        return render(request, 'New_app/edit.html', context={'user_form': user_form, 'profile_id': profile_id})

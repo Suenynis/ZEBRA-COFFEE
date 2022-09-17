@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1b4e426f-114b-43f8-9a3a-cd13eedfb726" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/New_app/Templates/New_app/edit.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/New_app/Templates/New_app/registration.html" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/Templates/New_app/registration.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/New_app/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New_app/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/forms.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/New_app/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/New_app/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/New_app/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,8 +21,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -85,7 +88,7 @@
       <updated>1663399641212</updated>
       <workItem from="1663399677387" duration="3739000" />
       <workItem from="1663403692850" duration="5000" />
-      <workItem from="1663403749856" duration="11882000" />
+      <workItem from="1663403749856" duration="18720000" />
     </task>
     <servers />
   </component>

@@ -6,12 +6,11 @@
 </head>
 <body>
 <h2>Registration</h2>
-<form method = "post" action = "/registration/">
+<form method = "post" action = "/{{ profile_id }}/edit/">
     {% csrf_token %}
     {{ user_form.as_p }}
-    <input type = "submit" value = "Register" >
+    <input type = "submit" value = "Save">
 </form>
 
-
 </body>
-</html
+</html>
